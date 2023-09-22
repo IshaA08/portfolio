@@ -1,56 +1,60 @@
 <html>
 
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript">
-        function scrollto(div) {
-            $('html,body').animate(
-                {
-                    scrollTop: $("#" + div).offset().top
-                }, 'slow');
-        }
-    </script>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/apple-touch-icon.png" />
+
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Isha Afzaal | Web Developer</title>
 </head>
 
 <body>
 
-    <div id="header">
-        <li id="site_name">Isha Afzaal</li>
-        <li onclick="scrollto('home');">HOME</li>
-        <li onclick="scrollto('about');">ABOUT</li>
-        <li onclick="scrollto('projects');">PROJECTS</li>
-        <li onclick="scrollto('contact');">CONTACT</li>
-    </div>
+    <!-- Navbar -->
+    <nav>
+        <h1>JANE DOE</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
 
-    <div id="home">
-        <h1>Demo Of One Page Website Template Using HTML, CSS And jQuery<p>TalkersCode.com</p>
-        </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet
-            consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
-    </div>
+    <!-- Hero Section -->
 
-    <div id="about">
-        <p>In this tutorial we will show you how to create One Page Website Template Using HTML, CSS And jQuery.Now you
-            can build simple and beautiful website quickly.</p>
-        <p>TalkersCode.com is a complete destination to learn Web Development with Best, Fast and Easy Methods for those
-            who is a novice and wants to be the Xpert in Web Development.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet
-            consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer luctus quam quis nibh fringilla sit amet
-            consectetur lectus malesuada. Sed nec libero erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Nunc mi nisi, rhoncus ut vestibulum ac, sollicitudin quis lorem. </p>
-    </div>
+    <!-- More about -->
 
-    <div id="contact">
-        <h1>If you have any question or query you can contact us at <br>talkerscode@gmail.com <br><br>or you can fill
-            the form below</h1>
-        <input type="text" placeholder="Name">
-        <textarea placeholder="Message"></textarea>
-        <input type="submit" value="SEND">
-    </div>
+    <!-- Skills section -->
+
+    <!-- Projects section -->
+
+    <!-- Contact section -->
+
+    <!-- Social accounts - Fixed to the right -->
+
+    <!-- Scroll to top -->
+
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
